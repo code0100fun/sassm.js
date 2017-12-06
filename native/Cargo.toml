@@ -1,0 +1,16 @@
+[package]
+name = "sassm_js"
+version = "0.1.0"
+authors = ["Chase McCarthy <chase@code0100fun.com>"]
+license = "ISC"
+build = "build.rs"
+
+[lib]
+name = "sassm_js"
+crate-type = ["dylib"]
+
+[build-dependencies]
+neon-build = "0.1.22"
+
+[dependencies]
+neon = "0.1.22"
